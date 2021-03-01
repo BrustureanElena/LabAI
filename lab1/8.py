@@ -1,5 +1,6 @@
 #ne
 #problema 8
+#O(n)
 def binary_list(n):
     z=[]
     for x in range(n):

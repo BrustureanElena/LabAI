@@ -1,7 +1,7 @@
 
 #pb5
 #Pentru un sir cu n elementele, a.i. o singura valoare se repeta de doua ori, sa se identifice valoarea care se repeta
-
+#O(n)
 def valoare_repeta(x):
     frecv=[]
     for i in range(len(x)):

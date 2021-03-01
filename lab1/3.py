@@ -2,7 +2,7 @@
 #problema 3 
 #sa se determine produsul scalar a doi vectori care contin numere reale
 
-
+#O(n)
 def function(x,y):
     a=0
     for i in range(len(x)):

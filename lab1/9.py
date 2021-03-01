@@ -1,6 +1,6 @@
 #ne
 #problema 9
-#complexitate O(n^n)
+#complexitate Theta(n^n)
 def suma_submatrici(matrice,p,q,r,s):
     suma=0
     for i in range(p,r+1):
