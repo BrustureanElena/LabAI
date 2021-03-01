@@ -17,6 +17,8 @@ def test():
     x=[7,4,6,3,9,1]
     assert functie(x,2) == 7
     assert functie(x,1) == 9
+    assert functie(x,3) == 6
+     assert functie(x,4) == 4
 test()
 
 

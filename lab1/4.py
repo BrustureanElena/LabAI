@@ -29,7 +29,7 @@ def test():
 
     assert function("ana are ana are mere rosii")==" mere rosii"
     assert function("ana are ana are mere rosii rosii")==" mere"
-     assert function("ana are ana are mere rosii rosii da")==" mere da"
+    assert function("ana are ana are mere pere")==" mere pere"
     
 test()
 

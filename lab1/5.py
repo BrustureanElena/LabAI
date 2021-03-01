@@ -20,6 +20,8 @@ def test():
     assert valoare_repeta(x) == 1
     y=[2,2,4,3]
     assert valoare_repeta(y) == 2
+    y=[3,3,4,9]
+    assert valoare_repeta(y) == 3
 test()
 
 

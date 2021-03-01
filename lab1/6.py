@@ -21,6 +21,10 @@ def elem_majoritar(x):
 def test():
     x=[2,8,7,2,2,5,2,3,1,2,2]
     assert elem_majoritar(x) == 2
+    a=[12,8,7,12,12,5,12,3,1,12,12]
+    assert elem_majoritar(a) == 12
+    b=[112,8,7,112,112,5,112,3,1,112,112]
+    assert elem_majoritar(a) == 112
 test()
 
 

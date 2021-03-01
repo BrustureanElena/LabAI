@@ -1,5 +1,5 @@
 #ne
-#complexitate O(n^n)
+#complexitate Theta(n^n)
 #problema 10
 # sa se identifici indexul liniei care contine cele mai multe elemente de 1
 def function(matrice):

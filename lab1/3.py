@@ -15,5 +15,11 @@ def test():
     x=[1,0,2,0,3]
     y=[1,2,0,3,1]
     assert function(x,y) == 4
+    x=[1,0,2,0,0]
+    y=[1,2,0,3,1]
+    assert function(x,y) == 1
+    x=[1,0,2,1,1]
+    y=[1,2,0,3,1]
+    assert function(x,y) == 5
 
 test()
