@@ -18,7 +18,7 @@ def main():
     
     ga = GA(gaParam, problParam)
     ga.initialisation() # fac o initializare, generez 300 de cromozomi si ii adaug in populatie
-    ga.evaluation()   # evaluez fitness-ul, sa vad cat de buni sunt cu functia modularity
+    ga.evaluation()   
     
    
     for g in range(gaParam['noGen']):

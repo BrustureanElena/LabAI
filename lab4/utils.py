@@ -18,11 +18,6 @@ def reprez(ret):
     return repres
 
 
-
-    # method that reads data from file
-#params : input :mat, file
-#         output: number of towns-INT, town1-SourceTown -INT,town2-DestinationTown -INT
-#for easy
 def readFromFile(mat, file):
   
     file = open(file, 'r')
